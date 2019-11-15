@@ -12,11 +12,13 @@ h1 {
   margin-left: 0;
   margin-top: 50px;
   padding: 0 0 0 0;
+  text-shadow: 1px 1px 2px black, 0 0 15px #78e2fd, 0 0 2px #002bff;
 }
 
 h2 {
   text-align: left;
   font-size: 2.1rem;
+
 }
 
 .icon-mail:hover {
@@ -47,6 +49,14 @@ h2 {
   text-align: left;
 }
 
+.title-shadow-text{
+  color: #6eb6ff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 1px 1px 2px black, 0 0 15px #78e2fd, 0 0 2px #002bff;
+}
+
 .top-section {
   padding: 85px 50px 0 0;
 }
@@ -54,6 +64,7 @@ h2 {
 .profile-image {
   height: 225px;
   width: 275px;
+  filter: drop-shadow(3px 2px 3px #7098da);
 }
 
 .container-fluid {
@@ -96,7 +107,7 @@ h2 {
 }
 
 .copyright-tag:hover {
-  text-shadow: 1px 1px 2px black, 0 0 25px #78e2fd, 0 0 5px #002bff;
+  text-shadow: 1px 1px 2px black, 0 0 15px #78e2fd, 0 0 2px #002bff;
 }
 
 .linkedin {
