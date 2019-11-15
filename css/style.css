@@ -14,16 +14,37 @@ h1 {
   padding: 0 0 0 0;
 }
 
+h2 {
+  text-align: left;
+  font-size: 2.1rem;
+}
+
+.icon-mail:hover {
+  background-color: #a4ecf9;
+  padding: 13px 8px 16px;
+  border-radius: 22%;
+  filter: drop-shadow(3px 2px 3px #7098da);
+}
+
+.icon-linked:hover {
+  background-color: #a4ecf9;
+  padding: 13px 0 16px;
+  border-radius: 22%;
+  filter: drop-shadow(3px 2px 3px #7098da);
+}
+
+.icon-github:hover {
+  background-color: #a4ecf9;
+  padding: 11px 6px 15px;
+  border-radius: 50%;
+  filter: drop-shadow(3px 2px 3px #7098da);
+}
+
 .page-text {
   color: #6eb6ff;
   font-size: 1.1rem;
   font-weight: bold;
   text-align: left;
-}
-
-h2 {
-  text-align: left;
-  font-size: 2.1rem;
 }
 
 .top-section {
@@ -66,9 +87,16 @@ h2 {
 }
 
 .bottom-text {
+  padding: 25px 0 0;
+}
+
+.copyright-tag {
   font-size: 1rem;
   color: #c9d1d3;
-  padding: 25px 0 0;
+}
+
+.copyright-tag:hover {
+  text-shadow: 1px 1px 2px black, 0 0 25px #78e2fd, 0 0 5px #002bff;
 }
 
 .linkedin {
